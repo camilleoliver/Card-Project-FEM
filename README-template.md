@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,7 +22,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Build out the project to the designs provided
+- Build out the project to the designs provided - the designs can be found in
+the folder named "design" on my Github profile.
 
 ### Screenshot
 
@@ -30,7 +31,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -58,51 +59,54 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is the beginning of my dive into web development and this project taught me
+that you have to practice to solidify the learning.
+The use of <span> and id's to label elements was super useful, it helped when writing the CSS and staying organized.
+Learning how to design line breaks in CSS was one of the highlights of my learning, I know that using <br> isn't always best practice so I'm excited about having that new CSS skill.
+Spacing, including margin and padding, is one of the things that stuck out to
+me while completing this project.
+I started this project before having a complete understanding of flexbox. If I
+knew more about that element I think it would have made the project a little easier
+to complete.
 
-To see how you can add code snippets, see below:
+Check out some of the code below for some snippets on how I finessed padding and spacing while not using flexbox and how I id'd some html.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<p id="name">Victor Crest<span id="age">26</span></p>
+<span id="location">London</span>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#stats {
+  white-space: pre-line;
+}
+img{
+  width: 5em;
+  border-radius: 50%;
+  border: 3px solid white;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  transform: translatey(-18.5em);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'm definitely going to continue learning about flexbox and how that can be used to help with the spacing in projects like this and moving forward. My next project I will be using rem instead of em for sizing/spacing/etc. linking all of that to the root element of this document would have saved me time and kept me from using trail and error mostly to test spacing and layout.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1](https://www.mdn.com) - This site was the BEST resource for this project.
+- [Example resource 2](https://www.codepen.io) - This is where I built the draft of the project. Being able to see changes happen instantly saved a lot of time and helped with moving the project along.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [camilleoliver](https://github.com/camilleoliver)
+- Frontend Mentor - [@camilleoliver](https://www.frontendmentor.io/profile/camilleoliver)
+- Twitter - [@rowecee_](https://www.twitter.com/rowecee_)
+- CodePen - [@camilleoliver](https://codepen.io/camilleoliver)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you to Frontend Mentor for creating this challenge and to Alan Bond for inspiring me to take on the world of Web Development.
