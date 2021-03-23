@@ -3,7 +3,7 @@ Body, html{
   color: #ffd6ba;*/
   background: url(https://res.cloudinary.com/drxh5jilw/image/upload/v1616471714/bg-pattern-top_htwuhs.svg),
   url(https://res.cloudinary.com/drxh5jilw/image/upload/v1616471714/bg-pattern-bottom_pvh9gy.svg), linear-gradient(to right top, #44d4d8, #3cc4d4);
-  background-position: bottom left -80%, top right -80%;
+  background-position: bottom left -30%, top right -30%;
   background-repeat: no-repeat;
   height: 100%;
   font-family: 'Noto Sans JP', sans-serif;
